@@ -6,7 +6,8 @@ This assignment involved implementing a simple system for running a series of ta
 
 This is a c program, and uses the gcc compiler to run the project. 
 In your terminal/command window, run the 
-`gcc --version` command to see if you have it installed. If not, install gcc for your specific OS by following this [link](https://www.guru99.com/c-gcc-install.html).
+`gcc --version` command to see if you have it installed. 
+If not, install gcc for your specific OS by following this [link](https://www.guru99.com/c-gcc-install.html).
 
 ### To run this project (and play the worm game!) follow these commands:
 
