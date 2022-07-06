@@ -2,8 +2,9 @@ This assignment involved implementing a simple system for running a series of ta
 
 To run this project (and play the worm game!) follow these commands:
 
-      git clone https://github.com/marksigilai/os-scheduler.git
+      git clone https://github.com/marksigilai/os-scheduler.git'
       
+In the project root repo
       make 
       
       ./worm
