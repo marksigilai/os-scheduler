@@ -1,12 +1,13 @@
 ## Project Description
 
-This assignment involved implementing a simple system for running a series of tasks within one process. Tasks in this system run as separate functions, and the scheduler switches between them. These tasks have the ability to perform self blocking operations. When a running enters the blocked state, the scheduler stops running the current task and selects a new one to run in the meantime. This is cooperative scheduling.
+This assignment involved implementing a simple system for running a series of tasks within one process. Tasks in this system run as separate functions, and the scheduler switches between them. 
+These tasks have the ability to perform self blocking operations. When a running enters the blocked state, the scheduler stops running the current task and selects a new one to run in the meantime. This is cooperative scheduling.
  
 ## Dependencies
 
 This is a c program, and uses the gcc compiler to run the project. 
-In your terminal/command window, run the 
-`gcc --version` command to see if you have it installed. 
+In your terminal/command window, run the `gcc --version` command to see if you have it installed. 
+
 If not, install gcc for your specific OS by following this [link](https://www.guru99.com/c-gcc-install.html).
 
 ### To run this project (and play the worm game!) follow these commands:
