@@ -1,4 +1,14 @@
-In this assignment, we implemented a simple system for running a series of tasks within one process. Tasks in this system run as separate functions, and the scheduler switches between them. These tasks have the ability to perform self blocking operations. When a running enters the blocked state, the scheduler stops running the current task and selects a new one to run in the meantime. This is cooperative scheduling.
+This assignment involved implementing a simple system for running a series of tasks within one process. Tasks in this system run as separate functions, and the scheduler switches between them. These tasks have the ability to perform self blocking operations. When a running enters the blocked state, the scheduler stops running the current task and selects a new one to run in the meantime. This is cooperative scheduling.
+
+To run this project (and play the worm game!) follow these commands:
+
+      git clone https://github.com/marksigilai/os-scheduler.git
+      
+      make 
+      
+      ./worm
+      
+      make clean
 
 While the system implemented could be used for other purposes, it was implemented to specifically support the game Worm!.
 
