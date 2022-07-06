@@ -1,5 +1,9 @@
 This assignment involved implementing a simple system for running a series of tasks within one process. Tasks in this system run as separate functions, and the scheduler switches between them. These tasks have the ability to perform self blocking operations. When a running enters the blocked state, the scheduler stops running the current task and selects a new one to run in the meantime. This is cooperative scheduling.
 
+``Dependencies
+
+This is a c program, and used the gcc compiler to run the project. In your terminal/command window, run the gcc -v command to 
+
 To run this project (and play the worm game!) follow these commands:
 
       git clone https://github.com/marksigilai/os-scheduler.git'
