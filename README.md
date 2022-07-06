@@ -5,6 +5,7 @@ To run this project (and play the worm game!) follow these commands:
       git clone https://github.com/marksigilai/os-scheduler.git'
       
 In the project root repo
+
       make 
       
       ./worm
